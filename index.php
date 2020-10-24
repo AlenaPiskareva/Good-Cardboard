@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="slick/slick.css" rel="stylesheet">
     <link href="slick/slick-theme.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     
     <?php wp_head(); ?>
