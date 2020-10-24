@@ -9,7 +9,7 @@
     <link href="slick/slick-theme.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/bootstrap-grid.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
     
     <?php wp_head(); ?>
     
