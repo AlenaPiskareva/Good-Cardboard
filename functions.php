@@ -4,4 +4,7 @@
         wp_enqueue_style('style', get_stylesheet_uri());
         wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap-grid.min.css');
         wp_enqueue_style('animate', get_template_directory_uri() . '/css/animate.css');
+        wp_enqueue_style('slick-theme', get_template_directory_uri() . '/slick/slick-theme.css');
+        wp_enqueue_style('slick', get_template_directory_uri() . '/slick/slick.css');
+
     }
