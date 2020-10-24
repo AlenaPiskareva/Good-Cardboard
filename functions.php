@@ -6,5 +6,5 @@
         wp_enqueue_style('animate', get_template_directory_uri() . '/css/animate.css');
         wp_enqueue_style('slick-theme', get_template_directory_uri() . '/slick/slick-theme.css');
         wp_enqueue_style('slick', get_template_directory_uri() . '/slick/slick.css');
-
+        wp_enqueue_style('index', get_template_directory_uri() . '/css/index.css');
     }
