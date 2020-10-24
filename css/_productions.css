@@ -1,0 +1,196 @@
+#productions{
+    padding: 100px 0;
+}
+.productions-block{
+    max-width: 375px;
+    margin-top: 39px;
+}
+.productions-block__title{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    position: relative;
+    text-align: left;
+}
+
+.productions-block__title::after{
+    content:'';
+    display: block;
+    position: absolute;
+    background-color: #ff9d00;
+    width: 432px;
+    height: 62px;
+    z-index: -1;
+    top: -13px;
+    left: -30px;
+}
+.productions-block__text{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 404px;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+
+/*стили в этом блоке для слайдера*/
+.slick-list{
+    margin-bottom: 13px;
+}
+
+.productions-slider-item{
+    height: 78px; 
+    margin: 0 3px;
+    overflow-y: hidden;
+    outline: none;
+    position: relative;
+}
+/*чтобы затемнить нижний слайдер*/
+.productions-slider-item::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.productions-slider-item:hover{
+    cursor: pointer;
+}
+
+.productions-slider-top{
+    margin-bottom: var(--base-size-l);
+}
+
+.productions-slider-bottom{
+    padding: 0 calc(var(--base-size-l) * 2);
+    height: 78px;
+}
+/*чтобы сбросить затемнение активного нижнего элемента*/
+.productions-slider-bottom
+.slick-current::after{
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.2s;
+}
+.slider-arrow{
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 22px;
+    height: 100%;
+    border: 1px solid var(--button-bgcolor);
+}
+.slider-arrow_left{
+    left: 0;
+    background: url(../image/productions/arrow-left.png) center no-repeat;
+}
+
+.slider-arrow_left:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    background: var(--button-bgcolor-hover) url(../image/productions/arrow-left_active.png) center no-repeat;
+}
+
+.slider-arrow_right{
+    right: 0;
+    background: url(../image/productions/arrow-right.png) center no-repeat;
+}
+
+.slider-arrow_right:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    background: var(--button-bgcolor-hover) url(../image/productions/arrow-right_active.png) center no-repeat;
+}
+
+
+/*медиазапрос для .productions*/
+@media (max-width:768px){
+    .productions{
+        padding: 48px;
+    }
+    .productions-block{
+        min-width: 100%;
+    }
+    .productions-block__title{
+        margin-top: 0;
+    }
+    .productions-block__title::after{
+        width: 700px;
+    }
+    .productions-block__text{
+        min-width: 100%;
+    }
+}
+
+/*медиазапрос для слайдера*/
+@media (max-width:768px){
+    .productions-slider-bottom{
+        display: none;
+    }
+
+    .slider-arrow_left{
+        height: 78px;
+        top: 50%;
+        margin-top: -50px;
+        background: var(--button-bgcolor) url(../image/productions/arrow-left_active.png) center no-repeat;
+    }
+    .slider-arrow_right{
+        height: 78px;
+        top: 50%;
+        margin-top: -50px;
+        background: var(--button-bgcolor) url(../image/productions/arrow-right_active.png) center no-repeat;
+    }
+}
+
+@media (max-width:426px){
+    .productions-block__title{
+        margin-bottom: 24px;
+    }
+    .productions-block__title::after{
+        width: 425px;
+        left: -63px;
+    }
+    .productions-block__text{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .productions-slider-top{
+        height: 300px;
+    }
+    .productions-slider-top img{
+        height: 300px;
+        object-fit: cover; /*чтобы картинка не растягивалась*/
+    }
+}
+@media (max-width:376px){
+    .productions-block__title::after{
+        width: 375px;
+        left: -63px;
+    }
+}
+
+@media (max-width:321px){
+    .productions-block__title{
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 16px;
+        font-weight: 600;
+    }
+    .productions-block__title::after{
+        width: 320px;
+        height: 53px;
+        top: 0;
+        margin-top: -12px;
+    }
+    .productions-block__text{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+}

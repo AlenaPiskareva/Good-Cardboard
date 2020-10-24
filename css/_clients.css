@@ -1,0 +1,297 @@
+#clients{
+    background: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.clients-title{
+    color: #313131;  
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative; 
+}
+.clients-title::after{
+    content: '';
+    background: url(../image/products/title_line.png) center no-repeat;
+    display:block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 8px;
+   
+}
+
+.clients-image {
+    width: 212px;
+    height: 130px;
+    border: 1px solid rgba(0,0,0,0.09);
+    margin: 60px auto;
+}
+.clients-image__one{
+    background:url(../image/clients/logo1.jpg);
+    display: block;
+    width: 147px;
+    height: 98px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.clients-image__one:hover{
+    background: url(../image/clients/logo1-hov.jpg);
+}
+.clients-image__two{
+    background:url(../image/clients/logo4.jpg);
+    display: block;
+    width: 101px;
+    height: 95px;
+    text-align: center;
+    margin: 17px auto;
+}
+.clients-image__two:hover{
+    background: url(../image/clients/logo4-hov.jpg);
+}
+.clients-image__three{
+    background:url(../image/clients/logo7.jpg);
+    display: block;
+    width: 144px;
+    height: 88px;
+    text-align: center;
+    margin: 20px auto;
+}
+.clients-image__three:hover{
+    background: url(../image/clients/logo7-hov.jpg);
+}
+.clients-image__four{
+    background:url(../image/clients/logo10.jpg);
+    display: block;
+    width: 123px;
+    height: 72px;
+    text-align: center;
+    margin: 28px auto;
+}
+.clients-image__four:hover{
+    background: url(../image/clients/logo10-hov.jpg);
+}
+.clients-image__five{
+    background:url(../image/clients/logo2.jpg);
+    display: block;
+    width: 164px;
+    height: 118px;
+    text-align: center;
+    margin: 5px auto;
+}
+.clients-image__five:hover{
+    background: url(../image/clients/logo2-hov.jpg);
+}
+.clients-image__six{
+    background:url(../image/clients/logo5.jpg);
+    display: block;
+    width: 202px;
+    height: 56px;
+    text-align: center;
+    margin: 36px auto;
+}
+.clients-image__six:hover{
+    background: url(../image/clients/logo5-hov.jpg);
+}
+
+.clients-image__seven{
+    background:url(../image/clients/logo8.jpg);
+    display: block;
+    width: 108px;
+    height: 69px;
+    text-align: center;
+    margin: 30px auto;
+}
+.clients-image__seven:hover{
+    background: url(../image/clients/logo8-hov.jpg);
+}
+.clients-image__eight{
+    background:url(../image/clients/logo11.jpg);
+    display: block;
+    width: 184px;
+    height: 29px;
+    text-align: center;
+    margin: 49px auto;
+}
+.clients-image__eight:hover{
+    background: url(../image/clients/logo11-hov.jpg);
+}
+.clients-image__nine{
+    background:url(../image/clients/logo3.jpg);
+    display: block;
+    width: 76px;
+    height: 91px;
+    text-align: center;
+    margin: 18px auto;
+}
+.clients-image__nine:hover{
+    background: url(../image/clients/logo3-hov.jpg);
+}
+.clients-image__ten{
+    background:url(../image/clients/logo6.jpg);
+    display: block;
+    width: 186px;
+    height: 33px;
+    text-align: center;
+    margin: 49px auto;
+}
+.clients-image__ten:hover{
+    background: url(../image/clients/logo6-hov.jpg);
+}
+.clients-image__eleven{
+    background:url(../image/clients/logo9.jpg);
+    display: block;
+    width: 147px;
+    height: 104px;
+    text-align: center;
+    margin: 12px auto;
+}
+.clients-image__eleven:hover{
+    background: url(../image/clients/logo9-hov.jpg);
+}
+.clients-image__twelve{
+    background:url(../image/clients/logo12.jpg);
+    display: block;
+    width: 159px;
+    height: 82px;
+    text-align: center;
+    margin: 23px auto;
+}
+.clients-image__twelve:hover{
+    background: url(../image/clients/logo12-hov.jpg);
+}
+
+@media (max-width: 1025px){
+    .clients-title{
+        margin-bottom: 30px;
+    }
+    .clients-image {
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 769px){
+    .clients-image {
+        margin-bottom: 30px;
+        margin: 24px auto;
+    }
+}
+@media (max-width:426px){
+    .clients-image {
+        width: 142px;
+        height: 87px;
+        margin-bottom: 0;
+    }
+    .clients-image__one{
+        background:url(../image/clients/min/logo12-min.jpg);
+        width: 99px;
+        height: 65px;
+        margin: 11px auto;
+    }
+    .clients-image__two{
+        background:url(../image/clients/min/logo11-min.jpg);
+        width: 67px;
+        height: 64px;
+        margin: 11px auto;
+    }
+    .clients-image__three{
+        background:url(../image/clients/min/logo5-min.jpg);
+        width: 107px;
+        height: 17px;
+        margin: 35px auto;
+    }
+    .clients-image__four{
+        background:url(../image/clients/min/logo6-min.jpg);
+        width: 82px;
+        height: 52px;
+        margin: 17px auto;
+    }
+    .clients-image__five{
+        background:url(../image/clients/min/logo10-min.jpg);
+        width: 86px;
+        height: 53px;
+        margin: 16px auto;
+    }
+    .clients-image__six{
+        background:url(../image/clients/min/logo9-min.jpg);
+        width: 78px;
+        height: 46px;
+        margin: 20px auto;
+    }
+    .clients-image__seven{
+        background:url(../image/clients/min/logo3-min.jpg);
+        width: 88px;
+        height: 62px;
+        text-align: center;
+        margin: 12px auto;
+    }
+    .clients-image__eight{
+        background:url(../image/clients/min/logo4-min.jpg);
+        width: 105px;
+        height: 54px;
+        margin: 16px auto;
+    }
+    .clients-image__nine{
+        background:url(../image/clients/min/logo8-min.jpg);
+        width: 101px;
+        height: 73px;
+        margin: 6px auto;
+    }
+    .clients-image__ten{
+        background:url(../image/clients/min/logo7-min.jpg);
+        width: 137px;
+        height: 38px;
+        margin: 24px auto;
+    }
+    .clients-image__eleven{
+        background:url(../image/clients/min/logo1-min.jpg);
+        width: 47px;
+        height: 57px;
+        margin: 15px auto;
+    }
+    .clients-image__twelve{
+        background:url(../image/clients/min/logo2-min.jpg);
+        width: 117px;
+        height: 21px;
+        margin: 32px auto;
+    }
+    .clients-image__one:hover{
+        display: none;
+    }
+    .clients-image__two:hover{
+        display: none;
+    }
+    .clients-image__three:hover{
+        display: none;
+    }
+    .clients-image__four:hover{
+        display: none;
+    }
+    .clients-image__five:hover{
+        display: none;
+    }
+    .clients-image__six:hover{
+        display: none;
+    }
+    .clients-image__seven:hover{
+        display: none;
+    }
+    .clients-image__eight:hover{
+        display: none;
+    }
+    .clients-image__nine:hover{
+        display: none;
+    }
+    .clients-image__ten:hover{
+        display: none;
+    }
+    .clients-image__eleven:hover{
+        display: none;
+    }
+    .clients-image__twelve:hover{
+        display: none;
+    }
+}

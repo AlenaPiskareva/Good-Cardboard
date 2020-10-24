@@ -1,0 +1,122 @@
+#review{
+    background: #f4f4f4;
+    padding: 60px 0;
+}
+
+.review-title{
+    color: #313131;  
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+.review-title::after{
+    content: '';
+    background: url(../image/products/title_line.png) center no-repeat;
+    display:block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 8px;
+}
+
+.review-slider{
+    margin-top: 50px;
+    padding: 0 70px;
+}
+
+/*Слайдер с отзывами*/
+
+.slider-review-arrow{
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 22px;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+.slider-review_left{
+    left: 45px;
+    transition: 0.2s;
+    background: url(../image/review/arrow_left_review.png) center no-repeat;
+}
+.slider-review_right{
+    right: 45px;
+    transition: 0.2s;
+    background: url(../image/review/arrow_right_review.png) center no-repeat;
+}
+
+.slick-slider img{
+    margin: 0 auto;
+}
+
+.review-slider__item{
+    outline: none;
+}
+
+/*Медиазапросы*/
+
+@media (max-width: 1025px){
+    .review-slider{
+        padding: 0 24px;
+    }
+    .slider-review_left{
+        left: 0;
+    }
+    .slider-review_right{
+        right: 0;
+    }
+}
+
+@media (max-width: 769px){
+    .fix-left_arrows{
+        left: 25px;
+    }
+    .fix-right_arrows{
+        right: 25px;
+    }
+}
+
+@media (max-width: 426px){
+    .fix-left_arrows{
+        left: 40px;
+    }
+    .fix-right_arrows{
+        right: 40px;
+    }
+}
+
+@media (max-width: 376px){
+    .review-title{
+        font-size: 22px;
+    }
+    .review-title::after{
+        display: none;
+    }
+    .review-slider{
+        margin-top: 24px;
+    }
+    .fix-left_arrows{
+        left: 14px;
+    }
+    .fix-right_arrows{
+        right: 14px;
+    }
+}
+
+@media (max-width: 321px){
+    .review-title{
+        font-size: 20px;
+        max-width: 289px;
+    }
+    .fix-left_arrows{
+        left: 2px;
+    }
+    .fix-right_arrows{
+        right: 2px;
+    }
+}

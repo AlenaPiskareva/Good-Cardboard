@@ -1,0 +1,204 @@
+#location{
+    position: relative;
+}
+.location-information{
+    background: #ffffff;;
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    bottom: 14%;
+    left: 18%;
+}
+.address-icon{
+    position: relative;
+    top: 35px;
+    left: 30px;
+    width: 29px;
+}
+.address-text{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+.address-office__title{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+
+.address-office__subtitle{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.address-stock__title{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+.address-stock__subtitle{
+    font-size: 18px;
+}
+.phone-icon{
+    position: relative;
+    top: 133px;
+    left: 30px;
+    width: 29px;
+}
+.address-phone__text{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 150px;
+}
+.address-phone__title{
+    margin-bottom: 0;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+.address-phone__subtitle{
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.location-button{
+    margin-top: 8px;
+    padding: 14px 28px
+}
+.mail-icon{
+    position: relative;
+    top: 270px;
+    left: 30px;
+    width: 29px;
+}
+.address-mail__text{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 322px;
+}
+.address-mail__title{
+    padding: 0;
+    margin: 0;
+}
+@media (min-width: 1025px) and (max-width: 2560px){
+    .location-mobile{
+        display: none;
+    }
+}
+@media (min-width: 769px) and (max-width:1024px){
+    .location-information{
+        left: 10%; 
+    }
+    .location-mobile{
+        display: none;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+    .location-mobile{
+        display: none;
+    }
+    .location-information{
+        width: 260px;
+        height: 323px;
+        bottom: 23%;
+        left: 12%;
+    }
+    .address-icon{
+        top: 14px;
+        left: 25px;
+    }
+    .address-text{
+        left: 50px;
+        top: 14px;
+    }
+    .address-office__title{
+        font-size: 18px;
+    }
+    .address-office__subtitle{
+        font-size: 14px;
+    }
+    .address-stock__title{
+        font-size: 18px;
+    }
+    .address-stock__subtitle{
+        font-size: 14px;
+    }
+    .phone-icon{
+        top: 105px;
+        left: 25px;
+    }
+    .address-phone__text{
+        left: 50px;
+        top: 132px;
+    }
+    .address-phone__title{
+        font-size: 18px;
+    }
+    .address-phone__subtitle{
+        font-size: 14px;
+    }
+    .location-button{
+        margin-top: 4px;
+        padding: 10px 12px;
+    }
+    .mail-icon{
+        top: 203px;
+        left: 25px;
+    }
+    .address-mail__text{
+        left: 50px;
+        top: 255px;
+    }
+    .address-mail__title{
+        font-size: 18px;
+    }
+    .address-mail__subtitle{
+        font-size: 14px;
+    }
+}
+@media(max-width:426px){
+    .location{
+        padding-bottom: 16px;
+    }
+    .location-information{
+        display: none;
+    }
+    .mobile-title{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-top: 35px;
+        padding-bottom: 6px;
+    }
+    .location-mobile__information{
+        text-align: center;
+    }
+    .mobile-address__title{
+        font-size: 18px;
+        margin: 0;
+        padding-bottom: 4px;
+        padding-top:14px;
+    }
+    .mobile-phone__title{
+        font-size: 18px;
+        margin: 0;
+        padding-bottom: 4px;
+        padding-top:20px;
+    }
+    .mobile-phone__subtitle{
+        padding-bottom: 4px;
+    }
+    .mobile-mail__title{
+        font-size: 18px;
+        margin: 0;
+        padding-bottom: 4px;
+        padding-top:18px;
+    }
+    .mobile-mail__subtitle{
+        padding-bottom: 35px;
+    }
+
+}

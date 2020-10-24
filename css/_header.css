@@ -1,0 +1,195 @@
+/*Блок с шапкой приложения*/
+.header{
+    background-color: var(--main-bgcolor);
+    padding-top: calc(var(--base-size-xl)*2);
+    padding-bottom: var(--base-size-xl);
+}
+.header-text{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.hidden-laptop_header{
+    display: none;
+}
+
+
+.button{
+    padding-left:var(--base-size-l);
+    padding-right: var(--base-size-l);
+    padding-bottom: calc(var(--base-size-xl)+12px);
+    padding-top: calc(var(--base-size-xl)+12px);
+    align-items: center;
+    color:var(--button-text-color);
+    background:var(--button-bgcolor);
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    border:none;
+    border-radius: var(--main-border-radius);
+}
+.button:hover{
+    background: var(--button-bgcolor-hover);
+}
+
+.button:focus{
+    background: var(--button-bgcolor-pressed);
+}
+
+.header-text__icon{
+    margin-right: var(--base-size-l);
+    vertical-align: middle;
+}
+
+.header-text__phone{
+    position: relative; /*Для черточки между номерами*/
+    margin-right: calc(var(--base-size-l)*2);
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: var(--base-size-m);
+}
+
+/*Для черточки между номерами*/
+
+.header-text__phone:nth-child(1)::after{
+    position: absolute ;
+    right: -12px;
+    bottom: -2px; 
+    display: block;
+    content: '';
+    width: 1px;
+    height: calc(var(--base-size-xl)*2);
+    background: #cfcfcf;
+}
+
+/*Медиазапрос для .header*/
+@media (min-width: 320px) and (max-width: 520px){
+    .hidden-mobile_header{
+        display: none;
+    }
+    .hidden-laptop_header{
+        display: inline-block;
+        margin-left: calc(var(--base-size-s) + 25px);
+        vertical-align: middle;
+        margin-top: var(--base-size-l);
+    }
+    
+    .header-text__phone{
+        margin: 0;
+        font-size: 14px;
+        margin-right: var(--base-size-m);
+        
+    }
+    .header-text__phone:nth-child(1)::after{
+        display: none;
+    }
+    .button{
+        padding: var(--base-size-m);
+        margin-left: var(--base-size-s);
+        margin-top: var(--base-size-m);
+    }
+    .header-text__order{
+        display: none;
+    }
+    .header-text__icon{
+        margin: 0;    
+    }
+    .text-phone__strong{
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 521px) and (max-width: 576px){
+    .header-text__phone:nth-child(1)::after{
+        display: none;
+    }
+    .button{
+        margin: 0;
+        padding: var(--base-size-xl);
+    }
+    .header-text__phone{
+        padding: var(--base-size-s);
+        font-size: calc(var(--base-size-xl) - 2px);
+    }
+    .text-phone__strong{
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    .header-logo{
+        width: 155px;
+        height: 60px;
+        padding: 15px 0;
+        margin-left: 50px;
+        margin-bottom: 12px;
+    }
+    .header-logo img{
+        margin: -5px 0;
+    }
+    .header-text__phone:nth-child(1)::after{
+        display: none;
+    }
+    .button{
+        margin: 0;
+        padding: var(--base-size-xl);
+    }
+    .header-text__phone{
+        padding: var(--base-size-s);
+    }
+    .header-text__order{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .header-text__phone:nth-child(1)::after{
+        display: none;
+    }
+    .button{
+        margin: 0;
+        padding: var(--base-size-xl);
+    }
+
+}
+@media (min-width: 993px) and (max-width: 1024px){
+    .header-phone{
+        display: flex;
+    }
+    .button{
+        margin: 0;
+        padding: var(--base-size-xl);
+    }
+    .header-text__phone{
+        padding: var(--base-size-s);
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px){
+    .header-phone{
+        display: flex;
+    }
+    .button{
+        margin: 0;
+        padding: var(--base-size-xl);
+    }
+    .header-text__phone{
+        padding: var(--base-size-s);
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px){
+    .header-phone{
+        display: flex;
+    }
+    .header-text__phone{
+        margin-right: calc(var(--base-size-l)*2);
+        font-size: 22px;
+        font-weight: 500;
+        padding-top: var(--base-size-m);
+    }
+}
+/*Конец блока с шапкой*/
