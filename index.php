@@ -123,11 +123,11 @@
                <div class="col-4 col-md-4">
                    <a href="#" class="toggle-mnu hidden-lg"><span></span></a>
                    <div class="header-logo hidden-mobile_header">
-                       <img src="./image/header/header_logo.png" alt="Логотип">
+                       <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/header/header_logo.png" alt="Логотип">
                    </div>
                     
                     <div class="header-logo__phone hidden-laptop_header">
-                        <img src="./image/header/header-logo__phone.png" alt="Логотип">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/header/header-logo__phone.png" alt="Логотип">
                      </div> 
                </div>
                <div class="col-8 col-md-8">
@@ -142,7 +142,7 @@
                             </div>
                        </div>
                         <button class="button">
-                            <img class="header-text__icon" src="./image/header/icon_phone.png" alt="Иконка телефона"><span class="header-text__order">Заказать звонок</span>
+                            <img class="header-text__icon" src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/header/icon_phone.png" alt="Иконка телефона"><span class="header-text__order">Заказать звонок</span>
                         </button>
                     </div>
                </div>
@@ -155,7 +155,7 @@
         <div class="row align-items-center">
             <div class="col-xs-12 col-md-12 col-lg-5 col-xl-5">
                 <div class="main-img hidden-mobile_main wow fadeInLeft" data-wow-delay="0.4s">
-                    <img src="image/main/main-cardboard.png" alt="">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/image/main/main-cardboard.png" alt="">
                 </div>
             </div>
             <div class="col-xs-12 col-md-12 col-lg-7 col-xl-7">
@@ -202,7 +202,7 @@
             <div class="features-cards-first">
                 <div class="features-card">
                     <div class="features-card__img">
-                        <img src="./image/features/img_first.png" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/features/img_first.png" alt="">
                     </div>
                     <div class="features-card__text">
                         <h3 class="features-card__title">Производство</h3>
@@ -212,7 +212,7 @@
 
                 <div class="features-card wow fadeInUp" data-wow-delay="0.2s">
                     <div class="features-card__img">
-                        <img src="./image/features/img_second.png" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/features/img_second.png" alt="">
                     </div>
                     <div class="features-card__text">
                         <h3 class="features-card__title">Бесплатные образцы</h3>
@@ -222,7 +222,7 @@
 
                 <div class="features-card wow fadeInUp" data-wow-delay="0.4s">
                     <div class="features-card__img">
-                        <img src="./image/features/img_third.png" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/features/img_third.png" alt="">
                     </div>
                     <div class="features-card__text">
                         <h3 class="features-card__title">Стабильное качество</h3>
@@ -234,7 +234,7 @@
             <div class="features-cards-second">
                 <div class="features-card wow fadeInUp" data-wow-delay="0.6s">
                     <div class="features-card__img">
-                        <img src="./image/features/img_fourth.png" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/features/img_fourth.png" alt="">
                     </div>
                     <div class="features-card__text">
                         <h3 class="features-card__title">Страховой запас</h3>
@@ -244,7 +244,7 @@
 
                 <div class="features-card wow fadeInUp" data-wow-delay="0.8s">
                     <div class="features-card__img">
-                        <img src="./image/features/img_fifth.png" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/features/img_fifth.png" alt="">
                     </div>
                     <div class="features-card__text">
                         <h3 class="features-card__title">Флексопечать</h3>
@@ -254,7 +254,7 @@
 
                 <div class="features-card wow fadeInUp" data-wow-delay="1s">
                     <div class="features-card__img">
-                        <img src="./image/features/img_sixth.png" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/features/img_sixth.png" alt="">
                     </div>
                     <div class="features-card__text">
                         <h3 class="features-card__title">Гидрофобные добавки</h3>
@@ -270,14 +270,14 @@
     <div class="container">
         <h2 class="products_title">Наша продукция</h2>
         <div class="line">
-            <img src="./image/products/title_line.png" alt="">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/products/title_line.png" alt="">
         </div>
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="products-block-first">
                     <div class="products-block-first__one">
                         <div class="products-img">
-                            <img src="./image/products/cardboard_first.png" alt="">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/products/cardboard_first.png" alt="">
                         </div>
                         <h4>Гофрокороб 4-х клапанный</h4>
                         <button class="button-more">Подробнее</button>
@@ -285,7 +285,7 @@
                     </div>
                     <div class="products-block-first__two">
                         <div class="products-img">
-                            <img src="./image/products/cardboard_second.png" alt="">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/products/cardboard_second.png" alt="">
                         </div>
                         <h4>Гофрокороб самосборный (сложная высечка)</h4>
                         <button class="button-more">Подробнее</button>
@@ -298,7 +298,7 @@
                 <div class="products-block-second">
                     <div class="products-block-second__one">
                         <div class="products-img">
-                            <img src="./image/products/cardboard_third.png" alt="">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/products/cardboard_third.png" alt="">
                         </div>
                         <h4>Гофролоток</h4>
                         <button class="button-more">Подробнее</button>
@@ -306,7 +306,7 @@
                     </div>
                     <div class="products-block-second__two">
                         <div class="products-img">
-                            <img src="./image/products/cardboard_fourth.png" alt="">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/products/cardboard_fourth.png" alt="">
                         </div>
                         <h4>Листовой гофрокартон</h4>
                         <button class="button-more">Подробнее</button>
@@ -342,31 +342,31 @@
         <div class="row">
             <div class="col-lg-7 order-lg-first col-12">
                 <div class="productions-slider-top">
-                    <img src="./image/productions/image-one.jpg" alt="">
-                    <img src="./image/productions/image-two.jpg" alt="">
-                    <img src="./image/productions/image-three.jpg" alt="">
-                    <img src="./image/productions/image-four.jpg" alt="">
-                    <img src="./image/productions/image-five.jpg" alt="">
-                    <img src="./image/productions/image-six.jpg" alt="">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-one.jpg" alt="">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-two.jpg" alt="">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-three.jpg" alt="">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-four.jpg" alt="">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-five.jpg" alt="">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-six.jpg" alt="">
                 </div>
                 <div class="productions-slider-bottom">
                     <div class="productions-slider-item">
-                        <img src="./image/productions/image-one.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-one.jpg" alt="">
                     </div>
                     <div class="productions-slider-item">
-                        <img src="./image/productions/image-two.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-two.jpg" alt="">
                     </div>
                     <div class="productions-slider-item">
-                        <img src="./image/productions/image-three.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-three.jpg" alt="">
                     </div>
                     <div class="productions-slider-item">
-                        <img src="./image/productions/image-four.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-four.jpg" alt="">
                     </div>
                     <div class="productions-slider-item">
-                        <img src="./image/productions/image-five.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-five.jpg" alt="">
                     </div>
                     <div class="productions-slider-item">
-                        <img src="./image/productions/image-six.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/productions/image-six.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -451,19 +451,19 @@
                 <h2 class="review-title">Отзывы о сотрудничестве</h2>
                 <div class="review-slider">
                     <div class="review-slider__item">
-                        <img src="./image/review/doc-1.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/review/doc-1.jpg" alt="">
                     </div>
                     <div class="review-slider__item">
-                        <img src="./image/review/doc-2.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/review/doc-2.jpg" alt="">
                     </div>
                     <div class="review-slider__item">
-                        <img src="./image/review/doc-3.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/review/doc-3.jpg" alt="">
                     </div>
                     <div class="review-slider__item">
-                        <img src="./image/review/doc-1.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/review/doc-1.jpg" alt="">
                     </div>
                     <div class="review-slider__item">
-                        <img src="./image/review/doc-2.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/review/doc-2.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -500,7 +500,7 @@
     <div class="location-information">
         <div class="location-information__address">
             <div class="address-icon">
-                <img src="./image/location/marker.png" alt="">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/location/marker.png" alt="">
             </div>
             <div class="address-text">
                 <h4 class="address-office__title">Адрес офиса</h4>
@@ -511,7 +511,7 @@
         </div>
         <div class="location-information__phone">
             <div class="phone-icon">
-                <img src="./image/location/phone.png" alt="">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/location/phone.png" alt="">
             </div>
             <div class="address-phone__text">
                 <h4 class="address-phone__title">Тел. отдела продаж:</h4>
@@ -522,7 +522,7 @@
         </div>
         <div class="location-information__mail">
             <div class="mail-icon">
-                <img src="./image/location/mail.png" alt="">  
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/./image/location/mail.png" alt="">  
             </div>
             <div class="address-mail__text">
                 <h4 class="address-mail__title">Е-mail</h4>
