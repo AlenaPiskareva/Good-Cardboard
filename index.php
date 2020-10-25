@@ -537,7 +537,7 @@
 </section>
 
 <!--Подключаю библиотеку wow для работы с анимацией-->
-<script src="js/wow.min.js"></script>
+
               <script>
               new WOW().init(); //инициализация анимации
               </script>
