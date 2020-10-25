@@ -11,3 +11,7 @@
     add_action( 'wp_enqueue_scripts', 'theme_scripts' );
     function theme_scripts() {
         wp_deregister_script('jquery');
+        wp_register_script('jquery', get_template_directory_uri() . '/js/jquery-3.3.1.min.js');
+        wp_enqueue_script('jquery');
+        wp_enqueue_script('slick', get_template_directory_uri() . '/slick/slick.min.js', array('jquery'), null, true);
+    }
