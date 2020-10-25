@@ -8,3 +8,6 @@
         wp_enqueue_style('slick', get_template_directory_uri() . '/slick/slick.css');
         wp_enqueue_style('index', get_template_directory_uri() . '/css/index.css');
     }
+    add_action( 'wp_enqueue_scripts', 'theme_scripts' );
+    function theme_scripts() {
+        wp_deregister_script('jquery');
