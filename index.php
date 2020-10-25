@@ -543,9 +543,9 @@
               </script>
 
 <!--Подключаю jquery для работы со слайдером-->
-<script src="js/jquery-3.3.1.min.js"></script>   
+
 <!--Подключаю skick-slider-->
-<script src="slick/slick.min.js"></script>
+
 
 <script type="text/javascript">
 //подключение слайдера для дальнейшей работы с ним
@@ -619,7 +619,7 @@
     return false;
   });
   </script>
-  
+
   <?php wp_footer(); ?>
 
 </body>
