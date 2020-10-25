@@ -14,4 +14,6 @@
         wp_register_script('jquery', get_template_directory_uri() . '/js/jquery-3.3.1.min.js');
         wp_enqueue_script('jquery');
         wp_enqueue_script('slick', get_template_directory_uri() . '/slick/slick.min.js', array('jquery'), null, true);
+        wp_enqueue_script('wow', get_template_directory_uri() . '/js/wow.min.js', array('jquery'), null, true);
+        wp_enqueue_script('maskedinput', get_template_directory_uri() . '/js/jquery.maskedinput.min.js', array('jquery'), null, true);
     }
